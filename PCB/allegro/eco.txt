@@ -1,0 +1,291 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 C1.1           D3.C           J1.2           
+                                 J2.2           J3.2           R7.1           
+                                 R13.1          R13.2          R17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97755       pins ADDED TO this new net
+                                 D3.A           R1.1           TP1.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97835       pins ADDED TO this new net
+                                 Q1.1           Q2.1           Q2.3           
+                                 Q4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97875       pins ADDED TO this new net
+                                 Q1.3           Q3.3           Q7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97939       pins ADDED TO this new net
+                                 Q5.1           Q5.3           Q6.1           
+                                 R4.1           TP2.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97965       pins ADDED TO this new net
+                                 C2.2           C3.1           D1.C           
+                                 D2.A           Q7.2           R9.2           
+                                 R10.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97969       pins ADDED TO this new net
+                                 D1.A           D2.C           R8.1           
+                                 R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N97983       pins ADDED TO this new net
+                                 C3.2           R11.1          R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N98131       pins ADDED TO this new net
+                                 C1.2           Q3.1           R12.2          
+                                 R14.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N98141       pins ADDED TO this new net
+                                 Q4.1           R7.2           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N98233       pins ADDED TO this new net
+                                 Q3.2           Q4.2           Q6.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N98621       pins ADDED TO this new net
+                                 R14.1          R15.1          R15.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N98633       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C2.1           R15.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N98691       pins ADDED TO this new net
+                                 R12.1          R13.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N105812      pins ADDED TO this new net
+                                 R16.1          R17.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N977031      pins ADDED TO this new net
+                                 Q1.2           R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N977231      pins ADDED TO this new net
+                                 Q2.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N983391      pins ADDED TO this new net
+                                 Q5.2           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N983651      pins ADDED TO this new net
+                                 Q6.2           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT          pins ADDED TO this new net
+                                 J3.1           R11.3          R16.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V+           pins ADDED TO this new net
+                                 J1.1           Q7.3           R1.2           
+                                 R2.2           R3.2           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  V-           pins ADDED TO this new net
+                                 J2.1           R5.1           R6.1           
+                                 R10.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4148_3_SMD0805_D1N4148
+ 1N4148_4_SMD0805_D1N4148
+ CON2_SMR2512_CON2
+ C_CAPC2008X126N_0805_4.7U
+ C_CAPC2008X126N_0805_33N
+ LED_2_SMD0805_5V,LED,LED
+ POT_1_TS53YL_50K
+ POT_TS53YL_50K
+ QBC846B_3_SOT23_QBC846B
+ QBC846B_5_SOT23_QBC846B
+ QBC846B_6_SOT23_QBC846B
+ QBC846B_7_SOT23_QBC846B
+ QBC856B_2_SOT23_QBC856B
+ QBC856B_3_SOT23_QBC856B
+ QBC856B_4_SOT23_QBC856B
+ R_RES2012X50N_0805_1K
+ R_RES2012X50N_0805_2K
+ R_RES2012X50N_0805_4.7K
+ R_RES2012X50N_0805_10K
+ R_RES2012X50N_0805_10
+ R_RES2012X50N_0805_68
+ R_RES2012X50N_0805_100
+ R_RES2012X50N_0805_220
+ R_RES2012X50N_0805_330
+ TEST POINT_SMD_PAD_3-05_1-80_Q5
+ TEST POINT_SMD_PAD_3-05_1-80_TE
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_CAPC2008X126N_0805_33N 
+ C2                  C_CAPC2008X126N_0805_33N 
+ C3                  C_CAPC2008X126N_0805_4.7U 
+ D1                  1N4148_3_SMD0805_D1N4148 
+ D2                  1N4148_4_SMD0805_D1N4148 
+ D3                  LED_2_SMD0805_5V,LED,LED 
+ J1                  CON2_SMR2512_CON2     
+ J2                  CON2_SMR2512_CON2     
+ J3                  CON2_SMR2512_CON2     
+ Q1                  QBC856B_2_SOT23_QBC856B 
+ Q2                  QBC856B_3_SOT23_QBC856B 
+ Q3                  QBC846B_3_SOT23_QBC846B 
+ Q4                  QBC846B_5_SOT23_QBC846B 
+ Q5                  QBC846B_6_SOT23_QBC846B 
+ Q6                  QBC846B_7_SOT23_QBC846B 
+ Q7                  QBC856B_4_SOT23_QBC856B 
+ R1                  R_RES2012X50N_0805_1K 
+ R2                  R_RES2012X50N_0805_220 
+ R3                  R_RES2012X50N_0805_220 
+ R4                  R_RES2012X50N_0805_4.7K 
+ R5                  R_RES2012X50N_0805_1K 
+ R6                  R_RES2012X50N_0805_1K 
+ R7                  R_RES2012X50N_0805_1K 
+ R8                  R_RES2012X50N_0805_2K 
+ R9                  R_RES2012X50N_0805_100 
+ R10                 R_RES2012X50N_0805_10K 
+ R11                 POT_TS53YL_50K        
+ R12                 R_RES2012X50N_0805_10 
+ R13                 POT_TS53YL_50K        
+ R14                 R_RES2012X50N_0805_10 
+ R15                 POT_1_TS53YL_50K      
+ R16                 R_RES2012X50N_0805_330 
+ R17                 R_RES2012X50N_0805_68 
+ TP1                 TEST POINT_SMD_PAD_3-05_1-80_TE 
+ TP2                 TEST POINT_SMD_PAD_3-05_1-80_Q5 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           SECTION        
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           SECTION        
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           SECTION        
+ D1.C                           PRIM_FILE      .\pstchip.dat
+ D1.C                           SECTION        
+ D2.C                           PRIM_FILE      .\pstchip.dat
+ D2.C                           SECTION        
+ D3.C                           PRIM_FILE      .\pstchip.dat
+ D3.C                           SECTION        
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           SECTION        
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           SECTION        
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ J3.2                           SECTION        
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q1.2                           SECTION        
+ Q2.2                           PRIM_FILE      .\pstchip.dat
+ Q2.2                           SECTION        
+ Q3.2                           PRIM_FILE      .\pstchip.dat
+ Q3.2                           SECTION        
+ Q4.2                           PRIM_FILE      .\pstchip.dat
+ Q4.2                           SECTION        
+ Q5.2                           PRIM_FILE      .\pstchip.dat
+ Q5.2                           SECTION        
+ Q6.2                           PRIM_FILE      .\pstchip.dat
+ Q6.2                           SECTION        
+ Q7.2                           PRIM_FILE      .\pstchip.dat
+ Q7.2                           SECTION        
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           SECTION        
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           SECTION        
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           SECTION        
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           SECTION        
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           SECTION        
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           SECTION        
+ R7.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R7.2                           SECTION        
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           SECTION        
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           SECTION        
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R10.2                          SECTION        
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          SECTION        
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          SECTION        
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          SECTION        
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          SECTION        
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          SECTION        
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          SECTION        
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          SECTION        
+ TP1.1                          PRIM_FILE      .\pstchip.dat
+ TP1.1                          SECTION        
+ TP2.1                          PRIM_FILE      .\pstchip.dat
+ TP2.1                          SECTION        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../ANNA CHIS/DESKTOP/ANUL III/PROJECT_CEF1/allegro/PROJECT_PARTEA1.brd   |
+|                                                    Thu Dec 04 15:51:53 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      78                                        |
+|       Comp definitions added:      26                                        |
+|       Components added      :      35                                        |
+|       Slot property added   :      70                                        |
+|                                                                              |
+|   Total ECO changes reported:     209                                        |
+|------------------------------------------------------------------------------|

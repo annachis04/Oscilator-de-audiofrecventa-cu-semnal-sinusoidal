@@ -1,0 +1,92 @@
+
+**** 12/02/25 20:52:52 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Anna Chis\Desktop\ANUL III\Project_CEF1\Project_partea1-PSpiceFiles\SCHEMATIC1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/1n4148.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc846b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/opto.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Anna Chis\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROJECT_PARTEA1
+D_D1         N86414 N86410 D1N4148_1 
+D_D2         N86410 N86414 D1N4148_1 
+R_R26         0 N86646  400 TC=0,0 
+C_C8         0 N86576  33n  TC=0,0 
+Q_Q22         N86384 N86384 N867841 QBC846B 
+Q_Q23         N86678 N86384 N86870 QBC846B 
+Q_Q17         N86320 N86280 N861481 QBC856B 
+R_R22         N86896 N86410  10k TC=0,0 
+R_R19         N861481 N86094  200 TC=0,0 
+R_R25         N86896 N86870  1k TC=0,0 
+X_R28         0 0 N87136 POT PARAMS: SET=0.1 VALUE=50k
+X_R27         N87066 N87066 N87078 POT PARAMS: SET=0.1 VALUE=50k
+R_R20         N861681 N86094  200 TC=0,0 
+R_R24         N86896 N867841  1k TC=0,0 
+X_R32         N86428 N86428 N86646 POT PARAMS: SET=0.1 VALUE=50k
+Q_Q21         N86094 N86320 N86410 QBC856B 
+V_V3         0 N86896 11Vdc
+R_R31         N86414 N86410  200 TC=0,0 
+R_R7         0 N86586  1k TC=0,0 
+Q_Q18         N86280 N86280 N861681 QBC856B 
+R_R30         N87066 N86576  10 TC=0,0 
+R_R33         N86200 N86094  1k TC=0,0 
+R_R8         N86414 N86586  2k TC=0,0 
+Q_Q19         N86320 N86576 N86678 QBC846B 
+Q_Q20         N86280 N86586 N86678 QBC846B 
+C_C6         N87078 N86410  33n  TC=0,0 
+X_D3         N86200 0 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=5e-6         
+C_C7         N86410 N86428  10u  TC=0,0 
+V_V1         N86094 0 11Vdc
+R_R29         N87136 N86576  10 TC=0,0 
+R_R23         N86384 N86094  4.7k TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q17 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q21 is undefined
+
+ERROR(ORPSIM-15113): Model QBC856B used by Q_Q18 is undefined
+

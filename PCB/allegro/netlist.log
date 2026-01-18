@@ -1,0 +1,13 @@
+{ Using PSTWRITER 17.2.0 d001Dec-04-2025 at 15:51:51 }
+
+#1 WARNING(ORCAP-36006): Part Name "TEST POINT_SMD_PAD_3-05_1-80_TEST POINT" is renamed to "TEST POINT_SMD_PAD_3-05_1-80_TE".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\USERS\ANNA CHIS\DESKTOP\ANUL III\PROJECT_CEF1\allegro/pstchip.dat
+
+Loading... C:\USERS\ANNA CHIS\DESKTOP\ANUL III\PROJECT_CEF1\allegro/pstchip.dat
+
+Loading... C:\USERS\ANNA CHIS\DESKTOP\ANUL III\PROJECT_CEF1\allegro/pstxprt.dat
+
+Loading... C:\USERS\ANNA CHIS\DESKTOP\ANUL III\PROJECT_CEF1\allegro/pstxnet.dat
+packaging the design view...

@@ -1,0 +1,4 @@
+Circuit: * source PROJECT_REFACUT2
+
+Fatal Error: Unknown subcircuit called in:
+   x_r27 n76222 n76222 n72842 pot params: set=0.01 value=15k

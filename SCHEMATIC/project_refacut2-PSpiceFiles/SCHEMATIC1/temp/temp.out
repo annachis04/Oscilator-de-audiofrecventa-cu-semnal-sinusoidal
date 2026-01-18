@@ -1,0 +1,339 @@
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "temp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/1n4148.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc846b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc856b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/opto.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Anna Chis\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 500ms 0.2m 0.2ms SKIPBP 
+.TEMP 0 25 70
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROJECT_REFACUT2
+V_V1         N72278 0 11Vdc
+R_R7         0 N72526  1k TC=0,0 
+Q_Q21         N72278 N72432 N72496 QBC856B 
+R_R22         N72702 N72496  10k TC=0,0 
+V_V3         0 N72702 11Vdc
+C_C6         N72842 N72496  33n  TC=0,0 
+Q_Q18         N72420 N72420 N723361 QBC856B 
+Q_Q19         N72432 N72610 N72644 QBC846B 
+R_R19         N723161 N72278  200 TC=0,0 
+R_R20         N723361 N72278  200 TC=0,0 
+Q_Q17         N72432 N72420 N723161 QBC856B 
+Q_Q20         N72420 N72526 N72644 QBC846B 
+R_R8         N80583 N72526  2k TC=0,0 
+Q_Q22         N73537 N73537 N734071 QBC846B 
+Q_Q23         N72644 N73537 N84413 QBC846B 
+R_R23         N73537 N72278  4.7k TC=0,0 
+R_R24         N72702 N734071  1k TC=0,0 
+R_R25         N72702 N84413  1k TC=0,0 
+R_R26         0 N81096  400 TC=0,0 
+C_C7         N72496 N81308  10u  TC=0,0 
+C_C8         0 N72610  33n  TC=0,0 
+X_R27         N76222 N76222 N72842 POT PARAMS: SET=1 VALUE=50k
+X_R28         0 0 N76264 POT PARAMS: SET=1 VALUE=50k
+R_R29         N76264 N72610  10 TC=0,0 
+R_R30         N76222 N72610  10 TC=0,0 
+R_R31         N80583 N72496  200 TC=0,0 
+D_D1         N80583 N72496 D1N4148_1 
+D_D2         N72496 N80583 D1N4148_1 
+X_R32         N81308 N81308 N81096 POT PARAMS: SET=0.1 VALUE=50k
+X_D3         N83986 0 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=5e-6         
+R_R33         N83986 N72278  1k TC=0,0 
+
+**** RESUMING temp.cir ****
+.END
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148_1       X_D3.model201   
+          IS    2.682000E-09    1.760300E-27 
+           N    1.836           2            
+         ISR    1.565000E-09                 
+         IKF     .04417                      
+          BV  100               5            
+         IBV  100.000000E-06    5.000000E-06 
+          RS     .5664          2            
+          TT   11.540000E-09                 
+         CJO    4.000000E-12                 
+          VJ     .5                          
+           M     .3333                       
+
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   18.220000E-15   20.140000E-15 
+          BF  324.4           315.3          
+          NF     .9932           .9974       
+         VAF   82              39.15         
+         IKF     .109            .079        
+         ISE  289.400000E-18    6.578000E-15 
+          NE    1.4             1.45         
+          BR    8.29            8.68         
+          NR     .9931           .9952       
+         VAR   17.9             9.5          
+         IKR     .09             .09         
+         ISC    9.982000E-12   16.330000E-15 
+          NC    1.763           1.15         
+         ISS    0               0            
+          RB   10              10            
+         RBM    5               5.000000E-06 
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .649            .663        
+          RC     .7014           .718        
+         CJE   12.440000E-12   11.350000E-12 
+         VJE     .7579           .7071       
+         MJE     .3656           .3808       
+         CJC    3.347000E-12    6.395000E-12 
+         VJC     .5463           .4951       
+         MJC     .391            .44         
+        XCJC     .6193           .6288       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .979            .9059       
+          TF  490.800000E-12  654.600000E-12 
+         XTF    9.51            5.387        
+         VTF    2.927           6.245        
+         ITF     .3131           .2108       
+          TR   90.000000E-09   55.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  D1N4148_1    X_D3.model201 
+
+         IS        2.281E-10      1.832E-28  
+         VJ        5.690E-01      1.024E+00  
+        CJO        3.802E-12      0.000E+00  
+         RS        5.664E-01      2.000E+00  
+        IKF        4.417E-02      0.000E+00  
+         BV        1.000E+02      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B        QBC846B    
+
+         BF        3.153E+02      3.244E+02  
+        ISE        2.903E-16      1.142E-17  
+        VJE        7.574E-01      8.037E-01  
+        CJE        1.100E-11      1.212E-11  
+         RE        6.630E-01      6.490E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.680E+00      8.290E+00  
+        ISC        3.193E-16      7.666E-13  
+        VJC        5.645E-01      6.111E-01  
+        CJC        5.970E-12      3.178E-12  
+         RC        7.180E-01      7.014E-01  
+        RBM        5.000E-06      5.000E+00  
+         IS        2.182E-16      1.974E-16  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.965E-01      7.965E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   25.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  D1N4148_1    X_D3.model201 
+
+         IS        2.268E-09      1.509E-27  
+         VJ        5.051E-01      1.002E+00  
+        CJO        3.985E-12      0.000E+00  
+         RS        5.664E-01      2.000E+00  
+        IKF        4.417E-02      0.000E+00  
+         BV        1.000E+02      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B        QBC846B    
+
+         BF        3.153E+02      3.244E+02  
+        ISE        5.319E-15      2.323E-16  
+        VJE        7.109E-01      7.613E-01  
+        CJE        1.132E-11      1.242E-11  
+         RE        6.630E-01      6.490E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.680E+00      8.290E+00  
+        ISC        1.249E-14      8.382E-12  
+        VJC        5.003E-01      5.511E-01  
+        CJC        6.363E-12      3.334E-12  
+         RC        7.180E-01      7.014E-01  
+        RBM        5.000E-06      5.000E+00  
+         IS        1.480E-14      1.339E-14  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.535E-01      7.535E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                  D1N4148_1    X_D3.model201 
+
+         IS        6.245E-08      3.167E-26  
+         VJ        3.880E-01      9.596E-01  
+        CJO        4.322E-12      0.000E+00  
+         RS        5.664E-01      2.000E+00  
+        IKF        4.417E-02      0.000E+00  
+         BV        1.000E+02      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC856B        QBC846B    
+
+         BF        3.153E+02      3.244E+02  
+        ISE        3.541E-13      1.796E-14  
+        VJE        6.247E-01      6.828E-01  
+        CJE        1.193E-11      1.297E-11  
+         RE        6.630E-01      6.490E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.680E+00      8.290E+00  
+        ISC        2.487E-12      2.648E-10  
+        VJC        3.824E-01      4.409E-01  
+        CJC        7.084E-12      3.622E-12  
+         RC        7.180E-01      7.014E-01  
+        RBM        5.000E-06      5.000E+00  
+         IS        6.517E-12      5.896E-12  
+        ISS        0.000E+00      0.000E+00  
+        VJS        6.738E-01      6.738E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+
+          JOB CONCLUDED
+
+**** 11/13/25 00:33:39 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-temp"  [ c:\users\anna chis\desktop\anul iii\project_cef\project_refacut2-PSpiceFiles\SCHEMATIC1\temp.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.67
+

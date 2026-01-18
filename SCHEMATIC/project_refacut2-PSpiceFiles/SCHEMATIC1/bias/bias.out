@@ -1,0 +1,227 @@
+
+**** 01/14/26 21:39:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Anna Chis\Desktop\ANUL III\P1_2025_432B_Chis_Anna_OSCILATOR_N1_Orcad\SCHEMATIC\project_ref
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/1n4148.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc846b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc856b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/opto.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/smls14bet.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Anna Chis\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROJECT_REFACUT2
+V_V+         N72278 0 11Vdc
+R_R7         0 N72526  1k TC=0,0 
+Q_Q7         N72278 N72432 N72496 QBC856B 
+R_R10         N72702 N72496  10k TC=0,0 
+V_V-         0 N72702 11Vdc
+C_C2         N72842 N72496  33n  TC=0,0 
+Q_Q2         N72420 N72420 N723361 QBC856B 
+Q_Q3         N72432 N72610 N72644 QBC846B 
+R_R3         N723161 N72278  220 TC=0,0 
+R_R2         N723361 N72278  220 TC=0,0 
+Q_Q1         N72432 N72420 N723161 QBC856B 
+Q_Q4         N72420 N72526 N72644 QBC846B 
+R_R8         N80583 N72526  2k TC=0,0 
+Q_Q5         N73537 N73537 N734071 QBC846B 
+Q_Q6         N72644 N73537 N84413 QBC846B 
+R_R4         N73537 N72278  4.7k TC=0,0 
+R_R5         N72702 N734071  1k TC=0,0 
+R_R6         N72702 N84413  1k TC=0,0 
+C_C3         N72496 N81308  4.7u  TC=0,0 
+C_C1         0 N72610  33n  TC=0,0 
+X_R15         N76222 N76222 N72842 POT PARAMS: SET=0.1 VALUE=50k
+X_R13         0 0 N76264 POT PARAMS: SET=0.1 VALUE=50k
+R_R12         N76264 N72610  10 TC=0,0 
+R_R14         N76222 N72610  10 TC=0,0 
+R_R9         N80583 N72496  100 TC=0,0 
+D_D1         N80583 N72496 D1N4148_1 
+D_D2         N72496 N80583 D1N4148_1 
+X_R11         N81308 N81308 N81096 POT PARAMS: SET=0.12 VALUE=50k
+X_D3         N83986 0 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=5e-6         
+R_R1         N83986 N72278  1k TC=0,0 
+R_R17         0 N105860  68 TC=0,0 
+R_R16         N105860 N81096  330 TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 01/14/26 21:39:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Anna Chis\Desktop\ANUL III\P1_2025_432B_Chis_Anna_OSCILATOR_N1_Orcad\SCHEMATIC\project_ref
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148_1       X_D3.model201   
+          IS    2.682000E-09    1.760300E-27 
+           N    1.836           2            
+         ISR    1.565000E-09                 
+         IKF     .04417                      
+          BV  100               5            
+         IBV  100.000000E-06    5.000000E-06 
+          RS     .5664          2            
+          TT   11.540000E-09                 
+         CJO    4.000000E-12                 
+          VJ     .5                          
+           M     .3333                       
+
+
+**** 01/14/26 21:39:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Anna Chis\Desktop\ANUL III\P1_2025_432B_Chis_Anna_OSCILATOR_N1_Orcad\SCHEMATIC\project_ref
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   18.220000E-15   20.140000E-15 
+          BF  324.4           315.3          
+          NF     .9932           .9974       
+         VAF   82              39.15         
+         IKF     .109            .079        
+         ISE  289.400000E-18    6.578000E-15 
+          NE    1.4             1.45         
+          BR    8.29            8.68         
+          NR     .9931           .9952       
+         VAR   17.9             9.5          
+         IKR     .09             .09         
+         ISC    9.982000E-12   16.330000E-15 
+          NC    1.763           1.15         
+         ISS    0               0            
+          RB   10              10            
+         RBM    5               5.000000E-06 
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .649            .663        
+          RC     .7014           .718        
+         CJE   12.440000E-12   11.350000E-12 
+         VJE     .7579           .7071       
+         MJE     .3656           .3808       
+         CJC    3.347000E-12    6.395000E-12 
+         VJC     .5463           .4951       
+         MJC     .391            .44         
+        XCJC     .6193           .6288       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .979            .9059       
+          TF  490.800000E-12  654.600000E-12 
+         XTF    9.51            5.387        
+         VTF    2.927           6.245        
+         ITF     .3131           .2108       
+          TR   90.000000E-09   55.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 01/14/26 21:39:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Anna Chis\Desktop\ANUL III\P1_2025_432B_Chis_Anna_OSCILATOR_N1_Orcad\SCHEMATIC\project_ref
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N72278)   11.0000 (N72420)    9.9456 (N72432)   10.3820 (N72496)    -.0757     
+
+(N72526)    -.0280 (N72610)    -.0272 (N72644)    -.6782 (N72702)  -11.0000     
+
+(N72842)    -.0272 (N73537)   -6.5946 (N76222)    -.0272 (N76264)    -.0272     
+
+(N80583)    -.0734 (N81096)    0.0000 (N81308)    0.0000 (N83986)    2.9533     
+
+(N84413)   -7.2661 (N105860)    0.0000                   (N723161)   10.6000    
+
+(N723361)   10.6000                   (N734071)   -7.2680                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V+        -1.657E-02
+    V_V-        -8.558E-03
+
+    TOTAL POWER DISSIPATION   2.76E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/14/26 21:39:36 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Anna Chis\Desktop\ANUL III\P1_2025_432B_Chis_Anna_OSCILATOR_N1_Orcad\SCHEMATIC\project_ref
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

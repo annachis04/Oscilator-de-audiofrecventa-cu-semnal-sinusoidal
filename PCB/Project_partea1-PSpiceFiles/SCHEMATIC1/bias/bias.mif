@@ -1,0 +1,5 @@
+ lib=c:\cadence\spb_17.2\tools\capture\library\pspice\modele_a1_lib\modele_a1_lib\bc846b.lib, offset=476, size=771
+ lib=c:\cadence\spb_17.2\tools\capture\library\pspice\modele_a1_lib\modele_a1_lib\bc856b.lib, offset=475, size=781
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\ediode.lib, offset=20702, size=217
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\breakout.lib, offset=9201, size=133
+ lib=C:\Cadence\SPB_17.2\tools\PSpice\Library\PSpiceModelApps.lib, offset=125, size=215

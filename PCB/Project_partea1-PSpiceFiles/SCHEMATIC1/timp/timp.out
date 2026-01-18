@@ -1,0 +1,188 @@
+
+**** 12/02/25 21:04:16 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ c:\users\anna chis\desktop\anul iii\project_cef1\project_partea1-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "timp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/1n4148.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc846b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/opto.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/smls14bet.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Anna Chis\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 0.2m 0.2ms SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROJECT_PARTEA1
+D_D1         N86414 N86410 D1N4148_1 
+D_D2         N86410 N86414 D1N4148_1 
+R_R16         0 N86646  400 TC=0,0 
+C_C1         0 N86576  33n  TC=0,0 
+Q_Q1         N86384 N86384 N867841 QBC846B 
+Q_Q2         N86678 N86384 N86870 QBC846B 
+Q_Q5         N86320 N86280 N861481 QBC856B 
+R_R10         N86896 N86410  10k TC=0,0 
+R_R3         N861481 N86094  200 TC=0,0 
+R_R6         N86896 N86870  1k TC=0,0 
+X_R12         0 0 N87136 POT PARAMS: SET=0.1 VALUE=50k
+X_R14         N87066 N87066 N87078 POT PARAMS: SET=0.1 VALUE=50k
+R_R2         N861681 N86094  200 TC=0,0 
+R_R5         N86896 N867841  1k TC=0,0 
+X_R15         N86428 N86428 N86646 POT PARAMS: SET=0.1 VALUE=50k
+Q_Q7         N86094 N86320 N86410 QBC856B 
+V_V2         0 N86896 11Vdc
+R_R9         N86414 N86410  200 TC=0,0 
+R_R7         0 N86586  1k TC=0,0 
+Q_Q6         N86280 N86280 N861681 QBC856B 
+R_R13         N87066 N86576  10 TC=0,0 
+R_R1         N86200 N86094  1k TC=0,0 
+R_R8         N86414 N86586  2k TC=0,0 
+Q_Q3         N86320 N86576 N86678 QBC846B 
+Q_Q4         N86280 N86586 N86678 QBC846B 
+C_C2         N87078 N86410  33n  TC=0,0 
+X_D3         N86200 0 LED PARAMS: IS=1.7603e-027 RS=2  BV=5 IBV=5e-6         
+C_C3         N86410 N86428  10u  TC=0,0 
+V_V1         N86094 0 11Vdc
+R_R11         N87136 N86576  10 TC=0,0 
+R_R4         N86384 N86094  4.7k TC=0,0 
+
+**** RESUMING timp.cir ****
+.END
+
+**** 12/02/25 21:04:16 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ c:\users\anna chis\desktop\anul iii\project_cef1\project_partea1-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               D1N4148_1       X_D3.model201   
+          IS    2.682000E-09    1.760300E-27 
+           N    1.836           2            
+         ISR    1.565000E-09                 
+         IKF     .04417                      
+          BV  100               5            
+         IBV  100.000000E-06    5.000000E-06 
+          RS     .5664          2            
+          TT   11.540000E-09                 
+         CJO    4.000000E-12                 
+          VJ     .5                          
+           M     .3333                       
+
+
+**** 12/02/25 21:04:16 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ c:\users\anna chis\desktop\anul iii\project_cef1\project_partea1-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   18.220000E-15   20.140000E-15 
+          BF  324.4           315.3          
+          NF     .9932           .9974       
+         VAF   82              39.15         
+         IKF     .109            .079        
+         ISE  289.400000E-18    6.578000E-15 
+          NE    1.4             1.45         
+          BR    8.29            8.68         
+          NR     .9931           .9952       
+         VAR   17.9             9.5          
+         IKR     .09             .09         
+         ISC    9.982000E-12   16.330000E-15 
+          NC    1.763           1.15         
+         ISS    0               0            
+          RB   10              10            
+         RBM    5               5.000000E-06 
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .649            .663        
+          RC     .7014           .718        
+         CJE   12.440000E-12   11.350000E-12 
+         VJE     .7579           .7071       
+         MJE     .3656           .3808       
+         CJC    3.347000E-12    6.395000E-12 
+         VJC     .5463           .4951       
+         MJC     .391            .44         
+        XCJC     .6193           .6288       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .979            .9059       
+          TF  490.800000E-12  654.600000E-12 
+         XTF    9.51            5.387        
+         VTF    2.927           6.245        
+         ITF     .3131           .2108       
+          TR   90.000000E-09   55.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+
+          JOB CONCLUDED
+
+**** 12/02/25 21:04:16 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-timp"  [ c:\users\anna chis\desktop\anul iii\project_cef1\project_partea1-pspicefiles\schematic1\timp.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .28
+

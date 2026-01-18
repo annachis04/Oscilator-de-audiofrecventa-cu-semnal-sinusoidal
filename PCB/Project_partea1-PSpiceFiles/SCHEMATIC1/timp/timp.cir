@@ -1,0 +1,38 @@
+** Profile: "SCHEMATIC1-timp"  [ c:\users\anna chis\desktop\anul iii\project_cef1\project_partea1-pspicefiles\schematic1\timp.sim ] 
+
+** Creating circuit file "timp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/1n4148.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc807-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc817-25.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc846b.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c2v7.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v1.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c5v6.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c6v8.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c8v2.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bzx84c10.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/irfr120npbf.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd31cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mjd32cg.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj177lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/mmbfj309lt1g.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/opto.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/smls14bet.lib" 
+.LIB "c:/cadence/spb_17.2/tools/capture/library/pspice/modele_a1_lib/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Anna Chis\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 100m 0.2m 0.2ms SKIPBP 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
